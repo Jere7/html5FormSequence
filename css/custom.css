@@ -1,0 +1,13 @@
+.clearfix {
+	display:block;
+	clear:both;
+}
+
+
+@media only screen and (max-width: 40.063em) {
+
+	input {
+		width:100%;
+	}
+
+}
