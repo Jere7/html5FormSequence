@@ -2,13 +2,46 @@
 	display:block;
 	clear:both;
 }
+* {
+	font-family: "Source Sans Pro";
+}
 
+body {
+    background:url(../images/bg.png); 
+}
+#container {
+	width:  500px;
+	margin:  130px auto 0 auto;
+	display: block;
+	position: relative;
+}
+ul {
+	list-style-type: none;  
+}
+
+ul li {
+	display: inline;
+	float: left;
+	color: #fff;
+	width: 33%;
+	font-size: 1.1em;
+	text-align: center;
+}
+ul li::before {
+	text-align: center;
+	border: 3px solid #fff;
+	height: 40px;
+	-moz-border-raduis: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+	width:  40px;
+	display: block;
+	margin: 5px auto;
+	font-size:  1.2em;
+}
 
 
 @media only screen and (max-width: 40.063em) {
 
-	input {
-		width:100%;
-	}
-
+	
 }
