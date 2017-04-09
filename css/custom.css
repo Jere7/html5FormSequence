@@ -7,7 +7,7 @@
 }
 
 body {
-    background:url(../images/bg.png); 
+    background-color: black; 
 }
 #container {
 	width:  500px;
@@ -28,8 +28,8 @@ ul li {
 	text-align: center;
 }
 ul li::before {
-	text-align: center;
-	border: 3px solid #fff;
+	text-align: center#fff;
+	border: 3px solid ;
 	height: 40px;
 	-moz-border-raduis: 75px;
 	-webkit-border-radius: 75px;
@@ -40,7 +40,24 @@ ul li::before {
 	font-size:  1.2em;
 }
 
+#step1::before {content:"1";}
+#step2::before {content:"2";}
+#step3::before {content:"3";}
 
+.selceted::before {
+	background: #fff;
+	color:#27333d;
+} 
+
+.form-container {
+	background:  #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 37px;
+	position: absolute;
+	width:  500px;
+
+}
 @media only screen and (max-width: 40.063em) {
 
 	
