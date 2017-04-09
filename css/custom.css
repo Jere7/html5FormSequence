@@ -1,6 +1,6 @@
 .clearfix {
-	display:block;
-	clear:both;
+	display: block;
+	clear: both;
 }
 * {
 	font-family: "Source Sans Pro";
@@ -10,8 +10,8 @@ body {
     background-color: black; 
 }
 #container {
-	width:  500px;
-	margin:  130px auto 0 auto;
+	width: 500px;
+	margin: 130px auto 0 auto;
 	display: block;
 	position: relative;
 }
@@ -34,23 +34,23 @@ ul li::before {
 	-moz-border-raduis: 75px;
 	-webkit-border-radius: 75px;
 	border-radius: 75px;
-	width:  40px;
+	width: 40px;
 	display: block;
 	margin: 5px auto;
-	font-size:  1.2em;
+	font-size: 1.2em;
 }
 
 #step1::before {content:"1";}
 #step2::before {content:"2";}
 #step3::before {content:"3";}
 
-.selceted::before {
+.selected::before {
 	background: #fff;
-	color:#27333d;
+	color: black;
 } 
 
 .form-container {
-	background:  #fff;
+	background: #fff;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	padding: 37px;
@@ -73,4 +73,4 @@ legend {
 @media only screen and (max-width: 40.063em) {
 
 	
-}
+}	
