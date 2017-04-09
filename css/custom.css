@@ -70,6 +70,23 @@ legend {
 	text-transform: uppercase;
 	color: gray; 
 }
+label {
+	display: none;
+}
+span.step {
+	text-align: center;
+	font-size: 1.6em;
+	font-weight: 600;
+	display: block;
+	margin: -5px 0 25px 0;
+}
+.full-txt {
+	width: 100%;
+	padding: 13px;
+	font-size: 1.1em;
+	margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 40.063em) {
 
 	
