@@ -22,14 +22,14 @@ ul {
 ul li {
 	display: inline;
 	float: left;
-	color: #fff;
+	color: seagreen;
 	width: 33%;
 	font-size: 1.1em;
 	text-align: center;
 }
 ul li::before {
-	text-align: center#fff;
-	border: 3px solid ;
+	text-align: center;
+	border: 3px solid green;
 	height: 40px;
 	-moz-border-raduis: 75px;
 	-webkit-border-radius: 75px;
@@ -55,13 +55,14 @@ ul li::before {
 	-moz-border-radius: 5px;
 	padding: 37px;
 	position: absolute;
-	width:  500px;
+	width: 500px;
 
 }
 
 fieldset {
 	border: none;
-	margin: 0px;padding: 0px;
+	margin: 0px;
+	padding: 0px;
 }
 
 legend {
