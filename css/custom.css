@@ -58,6 +58,17 @@ ul li::before {
 	width:  500px;
 
 }
+
+fieldset {
+	border: none;
+	margin: 0px;padding: 0px;
+}
+
+legend {
+	text-align: center;
+	text-transform: uppercase;
+	color: gray; 
+}
 @media only screen and (max-width: 40.063em) {
 
 	
