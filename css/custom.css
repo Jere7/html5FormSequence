@@ -86,6 +86,9 @@ span.step {
 	font-size: 1.1em;
 	margin-bottom: 20px;
 }
+input:focus {
+	border: 3px solid #263293;
+}
 
 @media only screen and (max-width: 40.063em) {
 
