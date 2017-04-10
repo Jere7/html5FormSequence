@@ -9,7 +9,7 @@ $(document).ready(function() {
          },
          password {
              equired: true,
-             minlength: 5
+             minlength:5
          }
      },
      messages: {
@@ -25,8 +25,12 @@ $(document).ready(function() {
      submitHandler: function() {
          $("#form-step-1").removeClass("animate-in");
          $("#form-step-2").addClass("animate-in");
+
          $("#step1").removeClass("selected");
          $("#step2").addClass("selected");
+
+         $("#formstep-2").addClass("animate-in");
+         $("#formstep-2").removeAttr("style");
      }
 }
  
