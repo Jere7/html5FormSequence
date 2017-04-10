@@ -46,7 +46,7 @@ ul li::before {
 
 .selected::before {
 	background: #fff;
-	color: black;
+	color: #27333d;
 } 
 
 .form-container {
