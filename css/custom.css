@@ -43,7 +43,7 @@ ul li:before {
 }
 
 #step1:before {content:"1";}
-#step2:before {content:"2";}
+#step2:before {conten t:"2";}
 #step3:before {content:"3";}
 
 .selected:before {
