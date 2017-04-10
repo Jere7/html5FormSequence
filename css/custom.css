@@ -161,11 +161,11 @@ input[type="checkbox"]:checked + label span {
 	}
 
 	.rp {
-		padding-left: 0px;
+		padding-left: 0;
 	}
 
 	.lp {
-		padding-right: 0px !important;
+		padding-right: 0 !important;
 	}
 	
 }	
