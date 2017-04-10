@@ -136,6 +136,36 @@ input[type="checkbox"]:checked + label span {
 }
 @media only screen and (max-width: 40.063em) {
 
+	#container {
+		width: 90%;
+		margin-top: 40px;
+	}
+	.form-container {
+		padding: 10px;
+		width: 100%;
+	}
+
+	.btn {
+		background: #26d293;
+		font-size: 1.4em;
+		padding: 8px;
+	}
+
+	.btn:hover {
+		background: #22ba83;
+	}
+
+	.full-txt {
+		padding: 8px;
+	}
+
+	.rp {
+		padding-left: 0px;
+	}
+
+	.lp {
+		padding-right: 0px !important;
+	}
 	
 }	
 
