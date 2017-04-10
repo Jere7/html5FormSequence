@@ -3,12 +3,13 @@
 	clear: both;
 }
 * {
-	font-family: "Source Sans Pro";
+	font-family: 'Source Sans Pro';
 }
 
 body {
-    background-color: black; 
+    background:url(../images/bg.png); 
 }
+
 #container {
 	width: 500px;
 	margin: 130px auto 0 auto;
@@ -22,14 +23,14 @@ ul {
 ul li {
 	display: inline;
 	float: left;
-	color: seagreen;
+	color: #fff;
 	width: 33%;
 	font-size: 1.1em;
 	text-align: center;
 }
-ul li::before {
+ul li:before {
 	text-align: center;
-	border: 3px solid green;
+	border: 3px solid #fff;
 	height: 40px;
 	-moz-border-raduis: 75px;
 	-webkit-border-radius: 75px;
@@ -40,11 +41,11 @@ ul li::before {
 	font-size: 1.2em;
 }
 
-#step1::before {content:"1";}
-#step2::before {content:"2";}
-#step3::before {content:"3";}
+#step1:before {content:"1";}
+#step2:before {content:"2";}
+#step3:before {content:"3";}
 
-.selected::before {
+.selected:before {
 	background: #fff;
 	color: #27333d;
 } 
@@ -89,6 +90,25 @@ span.step {
 input:focus {
 	border: 3px solid #263293;
 }
+
+.btn {
+	width: 100%;
+	background: 263293 url(../images/next-arrow.png) no-repeat 29% center;
+	color: #fff;
+	font-size: 1.8em;
+	border: none;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 15px;
+	margin-top: 30px;
+}
+
+.btn:hover {
+	cursor: pointer;
+	background: #22ba83 url(../images/next-arrow.png) no-repeat 29% center;
+	
+}
+
 
 @media only screen and (max-width: 40.063em) {
 
