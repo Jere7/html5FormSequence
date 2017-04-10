@@ -16,6 +16,7 @@ body {
 	display: block;
 	position: relative;
 }
+
 ul {
 	list-style-type: none;  
 }
@@ -32,7 +33,7 @@ ul li:before {
 	text-align: center;
 	border: 3px solid #fff;
 	height: 40px;
-	-moz-border-raduis: 75px;
+	-moz-border-radius: 75px;
 	-webkit-border-radius: 75px;
 	border-radius: 75px;
 	width: 40px;
@@ -88,7 +89,7 @@ span.step {
 	margin-bottom: 20px;
 }
 input:focus {
-	border: 3px solid #263293;
+	border: 3px solid #26d293;
 }
 
 .btn {
