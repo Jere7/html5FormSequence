@@ -105,15 +105,15 @@ input:focus {
 
 .btn:hover {
 	cursor: pointer;
-	background: #22ba83 url(../images/next-arrow.png) no-repeat 29% center;
-	
+	background: #22ba83 url(../images/next-arrow.png) no-repeat 29% center;	
 }
-.lp {padding-left: 0 !important;}
-.rp {padding-right: 0 !important;}
+
+.lp {padding-left: 0 !important; }
+.rp {padding-right: 0 !important; }
 
 .checklabel {
 	font-size: 1.2em;
-	display: block !important;;
+	display: block !important;
 }
 
 @media only screen and (max-width: 40.063em) {
