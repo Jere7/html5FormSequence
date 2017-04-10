@@ -24,13 +24,13 @@ $(document).ready(function() {
 
      submitHandler: function() {
          $("#form-step-1").removeClass("animate-in");
-         $("#form-step-2").addClass("animate-in");
+         $("#form-step-1").addClass("animate-in");
 
          $("#step1").removeClass("selected");
          $("#step2").addClass("selected");
 
-         $("#formstep-2").addClass("animate-in");
-         $("#formstep-2").removeAttr("style");
+         $("#form-step-2").addClass("animate-in");
+         $("#form-step-2").removeAttr("style");
      }
 }
  
