@@ -5,7 +5,7 @@ $(document).ready(function() {
          name: "required",
          email: {
              required: true,
-             minlength: 5
+             email: true 
          },
          password {
              equired: true,
