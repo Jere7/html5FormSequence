@@ -7,7 +7,7 @@ $(document).ready(function() {
              required: true,
              email: true 
          },
-         password {
+         password: {
              required: true,
              minlength:5
          }
