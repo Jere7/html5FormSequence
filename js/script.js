@@ -8,7 +8,7 @@ $(document).ready(function() {
              email: true 
          },
          password {
-             equired: true,
+             required: true,
              minlength:5
          }
      },
@@ -24,7 +24,7 @@ $(document).ready(function() {
 
      submitHandler: function() {
          $("#form-step-1").removeClass("animate-in");
-         $("#form-step-1").addClass("animate-in");
+         $("#form-step-1").addClass("animate-out");
 
          $("#step1").removeClass("selected");
          $("#step2").addClass("selected");
